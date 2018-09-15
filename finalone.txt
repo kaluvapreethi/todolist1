@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DO IT NOW!!!</title>
+<itemslist src="itemslist.js"></itemslist>
+</head>
+
+<body>
+<h> WELCOME TO "DO IT NOW!!!" </h>
+<p> You can now enter your to do list as per your wish</p>
+
+
+
+<p><button> Bills</button></p>
+<p id ="hiddenmessage"></p>
+
+<script>
+function revealmessage(){
+document.getElementById("hiddenmessage").innerHTML=
+"<ul> 
+  <li> electricity bill</li>
+  <li> credit card bill</li>
+  <li> gas bill</li>
+ </ul>"
+  ;
+}
+</script>
+</body>
+</html>
